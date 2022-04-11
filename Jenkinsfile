@@ -4,7 +4,7 @@ node('master')
 
 stage('ContinuousDownload_loans')
          {
-    git 'https://github.com/saba728/maven.git'
+    git 'https://github.com/saba728/jenkins_multibranch.git'
         }
 
 stage('Continuousbuild_loans')
